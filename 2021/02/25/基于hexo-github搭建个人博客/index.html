@@ -158,7 +158,7 @@
                           日期 2021-02-25
                          </span>
                     </span>
-<span>字数: 500</span>
+<span>字数: 501</span>
 <span class="post-count"> 阅读时长: 1 分钟</span>
                     <div class="tags text-center">
                         
@@ -196,16 +196,19 @@
 <h1 id="创建Git远程仓库"><a href="#创建Git远程仓库" class="headerlink" title="创建Git远程仓库"></a>创建Git远程仓库</h1><h2 id="注册GitHub账户"><a href="#注册GitHub账户" class="headerlink" title="注册GitHub账户"></a>注册GitHub账户</h2><blockquote>
 <p>GitHub Pages是一个静态站点托管服务，可直接从GitHub上的存储库获取HTML，CSS和JavaScript文件，还可以选择在构建过程中运行这些文件并发布网站。</p>
 </blockquote>
-<p>注意在取名时要细细斟酌，一旦命名将不能修改,<br>若已有GitHub账户可跳过此步骤</p>
+<p>注意在取名时要细细斟酌，一旦命名将不能修改<br>若已有GitHub账户可跳过此步骤</p>
 <h2 id="创建仓库"><a href="#创建仓库" class="headerlink" title="创建仓库"></a>创建仓库</h2><h4 id="点击New创建"><a href="#点击New创建" class="headerlink" title="点击New创建"></a>点击New创建</h4><p><img src="image/new.jpg" alt="image"></p>
 <h4 id="命名"><a href="#命名" class="headerlink" title="命名"></a>命名</h4><p>创建一个名为username.github.io的存储库，其中username是你在GitHub上的用户名<br><img src="image/cank.jpg" alt="image"></p>
+<hr>
 <h1 id="部署至Git"><a href="#部署至Git" class="headerlink" title="部署至Git"></a>部署至Git</h1><h2 id="安装git插件"><a href="#安装git插件" class="headerlink" title="安装git插件"></a>安装git插件</h2><p>注意要在你的blog目录下安装</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <h2 id="修改站点配置文件"><a href="#修改站点配置文件" class="headerlink" title="修改站点配置文件"></a>修改站点配置文件</h2><p>打开站点根目录下的_config.yml文件，找到deploy这一栏，做如下更改</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https:&#x2F;&#x2F;github.com&#x2F;username&#x2F;username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>其中username替换成你自己的GitHub用户名</p>
 <h2 id="将本地项目推送到GitHub服务器"><a href="#将本地项目推送到GitHub服务器" class="headerlink" title="将本地项目推送到GitHub服务器"></a>将本地项目推送到GitHub服务器</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean   &#x2F;&#x2F;清理缓存</span><br><span class="line">hexo g       &#x2F;&#x2F;生成静态文件</span><br><span class="line">hexo d       &#x2F;&#x2F;部署网站到创建的仓库</span><br></pre></td></tr></table></figure>
-<p>完成以上几步，打开浏览器输入username.github.io就可以访问你的个人网站啦<br>以上便是搭建hexo个人博客的全步骤，当然现在呈现的效果是有些简陋的<br>hexo支持个性化主题，可以根据自己的喜好进行更换。感兴趣的可以看看下篇如何更换主题</p>
+<p>完成以上几步，打开浏览器输入username.github.io就可以访问你的个人网站啦</p>
+<hr>
+<p>以上便是搭建hexo个人博客的全步骤，当然现在呈现的效果是有些简陋的<br>hexo支持个性化主题，可以根据自己的喜好进行更换。感兴趣的可以看看下篇如何更换主题</p>
 
                 <hr>
                 
