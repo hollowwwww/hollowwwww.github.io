@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        酒浅一生
+        hexo更换主题Anisina｜酒浅一生
         
     </title>
 
-    <link rel="canonical" href="https://winelife.fun/archives/2021/02/">
+    <link rel="canonical" href="https://winelife.fun/2020/12/30/hexo更换主题Anisina/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -49,7 +49,7 @@
 <!-- hack iOS CSS :active style -->
 <body ontouchstart="" class="animated fadeIn">
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "false" data-istags="false
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " id="nav-top" data-ispost = "true" data-istags="false
 " data-ishome = "false" >
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -94,7 +94,7 @@
                         
     						
                         <li>
-                            <a href="/categories/">Categories</a>
+                            <a href="/tags/">Tags</a>
                         </li>
     						
     					
@@ -102,7 +102,7 @@
                         
     						
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/categories/">Categories</a>
                         </li>
     						
     					
@@ -147,156 +147,154 @@
 
 <!-- Main Content -->
 
+<!--only post-->
 
-<!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
-        <header class="intro-header">
-            <div class="container">
-                <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src="/image/header.png"/>
-                        <h5><a href="/about/">winelife</a></h5>
-                        <p>后来遇见她，陪我春秋冬夏</p>
+
+<img class="wechat-title-img" src="image/stars.jpeg">
+
+
+<style>
+    
+    header.intro-header {
+        background-image: url('image/stars.jpeg');
+    }
+
+    
+</style>
+
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>hexo更换主题Anisina</h1>
+                    
+                    <span class="meta">
+                         作者 winelife
+                        <span>
+                          日期 2020-12-30
+                         </span>
+                    </span>
+<span>字数: 515</span>
+<span class="post-count"> 阅读时长: 2 分钟</span>
+                    <div class="tags text-center">
+                        
+                        <a class="tag" href="/tags/hexo"
+                           title="hexo">hexo</a>
+                        
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
-</div>
-<!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
-
-
-
-<div class="post-preview  "
-     style="background-image: url('image/math.jpeg')">
-    <a href="/2021/02/15/走方格的方案数/">
-        <h2 class="post-title">
-            走方格的方案数
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2021-02-15
-        </p>
-        
-        <div class="post-content-preview">
-            <p>
-                走方格的方案数
-请计算n*m的棋盘格子（n为横向的格子数，m为竖向的格子数）沿着各自边缘线从左上角走到右下角，总共有多少种走法，要求不能走回头路，即：只能往右和往下走，不能往左和往上走。
-
-
-递归思想
-从(m, n)—&gt;(0, 0)就只有两种走法：往右走一步：f(m, n - 1)—&gt..
-            </p>
         </div>
-    </a>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            hexo更换主题Anisina
+        </span>
+    </div>
+</header>
 
-</div>
-
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+                <p><a href="https://winelife.fun/2021/01/20/%E5%9F%BA%E4%BA%8Ehexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">上篇文章</a>介绍了如何使用hexo+GitHub去搭建一个属于自己的博客网站。网站是搭出来了，但是显示出来的效果不尽如人意。hexo支持个性化主题，本篇以<a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Anisina">Anisina</a>为例,演示如何更换hexo主题并修改相关配置</p>
 <hr>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a>下载源码</h2><p>在blog根目录下执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;Haojen&#x2F;hexo-theme-Anisina.git</span><br></pre></td></tr></table></figure>
+<p>然后将clone的文件拖动到themes目录下，修改名称为Anisina</p>
+<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>打开博客根目录下默认的<code>_config.yml</code>文件，找到<code>themes</code>一栏，将其修改为<code>Anisina</code></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">themes: Anisina   &#x2F;&#x2F;注意:后面有一个空格</span><br></pre></td></tr></table></figure>
+<p>到这里就可以执行<code>hexo clean &amp;&amp; hexo s</code>，去本地浏览器查看主题效果了</p>
+<hr>
+<h1 id="标签的使用"><a href="#标签的使用" class="headerlink" title="标签的使用"></a>标签的使用</h1><ol>
+<li>执行<code>hexo new page &quot;tags&quot;</code>，在<code>source</code>目录下会生成一个名为<code>tags</code>的文件夹</li>
+<li>打开<code>source/tags</code>,找到名为<code>index.md</code>的文件，打开它，然后在两个<code>---</code>之间添加一条记录:<code>layout: tags</code>，注意key和value间的空格</li>
+<li>创建一条博文<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;new-post-name&quot;</span><br></pre></td></tr></table></figure>
+此时在<code>source/_posts</code>会创建一个<code>.md</code>格式的博文，创建博文的同时会创建一个以此博文名命名的文件夹</li>
+<li>打开<code>.md</code>文件，在两个<code>---</code>之间添加一行如:<code>tags: movies</code>,执行<code>hexo clean &amp;&amp; hexo s</code>，在本地查看标签设置效果</li>
+</ol>
+<hr>
+<h1 id="博文背景图片"><a href="#博文背景图片" class="headerlink" title="博文背景图片"></a>博文背景图片</h1><p>博文默认图片(如果不设置这一项, 博文标题的图片默认是灰色的)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">post-default-img: post-default.jpg  &#x2F;&#x2F;图片可放在主题文件夹source目录下</span><br></pre></td></tr></table></figure>
+<h2 id="七牛cdn图床"><a href="#七牛cdn图床" class="headerlink" title="七牛cdn图床"></a>七牛cdn图床</h2><p>Anisina主题支持七牛cdn图床功能</p>
+<ol>
+<li>注册一个自己的七牛cdn，然后拷贝cdn-url到<code>_config.yml</code>文件中对应位置<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cdn-url: http:&#x2F;&#x2F;you-cdn.com&#x2F;</span><br></pre></td></tr></table></figure></li>
+<li>上传图片至七牛cdn</li>
+<li>获取到图片除cdn-url外后面到路径，如<code>/image/earth.jpg</code>,然后在博文头部添加两行<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">header-img: image-url.png   &#x2F;&#x2F;你要使用的图片的路径</span><br><span class="line">cdn: &#39;header-on&#39;</span><br></pre></td></tr></table></figure></li>
+</ol>
 
+                <hr>
+                
 
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-        </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
+                <ul class="pager">
                     
-                    <img src="/image/header.png"/>
                     
-                    <h5><a href="/about/">winelife</a></h5>
+                    <li class="next">
+                        <a href="/2020/12/20/基于hexo-github搭建个人博客/" data-toggle="tooltip" data-placement="top"
+                           title="基于hexo+github搭建个人博客">Next Post &rarr;</a>
+                    </li>
                     
-                    <p>后来遇见她，陪我春秋冬夏</p>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
-                        
-                        
-    
-                        
-                        <li>
-                            <a target="_blank" href="http://weibo.com/u/5815418755">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-    
-                        
-    
-                        
-                        <li>
-                            <a target="_blank" href="https://github.com/hollowwwww">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        
-    
-                        
-                    </ul>
+                </ul>
+
+                
+
+                
+
+
+                <!--加入新的评论系统-->
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col">
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81"><span class="toc-text">下载源码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="toc-text">修改配置文件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E7%AD%BE%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-text">标签的使用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%9A%E6%96%87%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87"><span class="toc-text">博文背景图片</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E7%89%9Bcdn%E5%9B%BE%E5%BA%8A"><span class="toc-text">七牛cdn图床</span></a></li></ol></li></ol>
                 </div>
-            </section>
-    
-            <!-- Featured Tags  标签 -->
-            
-            <section>
-                <div class="tags">
-                    
-                    
-                    <a href="/tags/hexo" title="hexo"
-                       rel="2">hexo</a>
-                    
-                    
-                    
-                    <a href="/tags/递归" title="递归"
-                       rel="1">递归</a>
-                    
-                    
-                    
-                    <a href="/tags/动态规划" title="动态规划"
-                       rel="1">动态规划</a>
-                    
-                    
-                </div>
-            </section>
-            
-    
-            
-    
+            </div>
         </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5 class="text-center">
+                        <a href="/tags/">FEATURED TAGS</a>
+                    </h5>
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/hexo"
+                           title="hexo">hexo</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
     </div>
-</div>
+</article>
+
+
+
+
+
+
 
 <!-- Footer -->
 <!-- Footer -->
