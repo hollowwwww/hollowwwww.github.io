@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        hexo更换主题Anisina｜酒浅一生
+        Linux常用命令｜酒浅一生
         
     </title>
 
-    <link rel="canonical" href="https://winelife.fun/2022/10/10/hexo更换主题Anisina/">
+    <link rel="canonical" href="https://winelife.fun/2022/12/16/Linux常用命令/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -150,13 +150,13 @@
 <!--only post-->
 
 
-<img class="wechat-title-img" src="/image/stars.jpeg">
+<img class="wechat-title-img" src="/image/code.jpg">
 
 
 <style>
     
     header.intro-header {
-        background-image: url('/image/stars.jpeg');
+        background-image: url('/image/code.jpg');
     }
 
     
@@ -167,20 +167,20 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                 <div class="post-heading">
-                    <h1>hexo更换主题Anisina</h1>
+                    <h1>Linux常用命令</h1>
                     
                     <span class="meta">
                          作者 winelife
                         <span>
-                          日期 2022-10-10
+                          日期 2022-12-16
                          </span>
                     </span>
-<span>字数: 515</span>
+<span>字数: 661</span>
 <span class="post-count"> 阅读时长: 2 分钟</span>
                     <div class="tags text-center">
                         
-                        <a class="tag" href="/tags/hexo"
-                           title="hexo">hexo</a>
+                        <a class="tag" href="/tags/Linux"
+                           title="Linux">Linux</a>
                         
                     </div>
                 </div>
@@ -189,7 +189,7 @@
     </div>
     <div class="post-title-haojen">
         <span>
-            hexo更换主题Anisina
+            Linux常用命令
         </span>
     </div>
 </header>
@@ -200,46 +200,43 @@
         <div class="row">
             <!-- Post Container -->
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
-                <p><a href="https://winelife.fun/2022/10/09/%E5%9F%BA%E4%BA%8Ehexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">上篇文章</a>介绍了如何使用hexo+GitHub去搭建一个属于自己的博客网站。网站是搭出来了，但是显示出来的效果不尽如人意。hexo支持个性化主题，本篇以<a target="_blank" rel="noopener" href="https://github.com/Haojen/hexo-theme-Anisina">Anisina</a>为例,演示如何更换hexo主题并修改相关配置</p>
-<hr>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a>下载源码</h2><p>在blog根目录下执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;Haojen&#x2F;hexo-theme-Anisina.git</span><br></pre></td></tr></table></figure>
-<p>然后将clone的文件拖动到themes目录下，修改名称为Anisina</p>
-<h2 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h2><p>打开博客根目录下默认的<code>_config.yml</code>文件，找到<code>themes</code>一栏，将其修改为<code>Anisina</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">themes: Anisina   &#x2F;&#x2F;注意:后面有一个空格</span><br></pre></td></tr></table></figure>
-<p>到这里就可以执行<code>hexo clean &amp;&amp; hexo s</code>，去本地浏览器查看主题效果了</p>
-<hr>
-<h1 id="标签的使用"><a href="#标签的使用" class="headerlink" title="标签的使用"></a>标签的使用</h1><ol>
-<li>执行<code>hexo new page &quot;tags&quot;</code>，在<code>source</code>目录下会生成一个名为<code>tags</code>的文件夹</li>
-<li>打开<code>source/tags</code>,找到名为<code>index.md</code>的文件，打开它，然后在两个<code>---</code>之间添加一条记录:<code>layout: tags</code>，注意key和value间的空格</li>
-<li>创建一条博文<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo new &quot;new-post-name&quot;</span><br></pre></td></tr></table></figure>
-此时在<code>source/_posts</code>会创建一个<code>.md</code>格式的博文，创建博文的同时会创建一个以此博文名命名的文件夹</li>
-<li>打开<code>.md</code>文件，在两个<code>---</code>之间添加一行如:<code>tags: movies</code>,执行<code>hexo clean &amp;&amp; hexo s</code>，在本地查看标签设置效果</li>
-</ol>
-<hr>
-<h1 id="博文背景图片"><a href="#博文背景图片" class="headerlink" title="博文背景图片"></a>博文背景图片</h1><p>博文默认图片(如果不设置这一项, 博文标题的图片默认是灰色的)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">post-default-img: post-default.jpg  &#x2F;&#x2F;图片可放在主题文件夹source目录下</span><br></pre></td></tr></table></figure>
-<h2 id="七牛cdn图床"><a href="#七牛cdn图床" class="headerlink" title="七牛cdn图床"></a>七牛cdn图床</h2><p>Anisina主题支持七牛cdn图床功能</p>
-<ol>
-<li>注册一个自己的七牛cdn，然后拷贝cdn-url到<code>_config.yml</code>文件中对应位置<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cdn-url: http:&#x2F;&#x2F;you-cdn.com&#x2F;</span><br></pre></td></tr></table></figure></li>
-<li>上传图片至七牛cdn</li>
-<li>获取到图片除cdn-url外后面到路径，如<code>/image/earth.jpg</code>,然后在博文头部添加两行<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">header-img: image-url.png   &#x2F;&#x2F;你要使用的图片的路径</span><br><span class="line">cdn: &#39;header-on&#39;</span><br></pre></td></tr></table></figure></li>
-</ol>
+                <h2 id="常用文件-目录操作"><a href="#常用文件-目录操作" class="headerlink" title="常用文件/目录操作"></a>常用文件/目录操作</h2><blockquote>
+<h3 id="展示目录列表命令ls（list）"><a href="#展示目录列表命令ls（list）" class="headerlink" title="展示目录列表命令ls（list）"></a>展示目录列表命令ls（list）</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ls             展示当前目录下的可见文件</span><br><span class="line">ls -a         展示当前目录下所有的文件（包括隐藏的文件）</span><br><span class="line">ls -l(ll)      展示当前目录下文件的详细信息</span><br><span class="line">ll -a          展示当前目录下所有文件的详细信息</span><br><span class="line">ll -h          友好的显示当前目录下文件的详细信息（其实就是文件的大小可读性更强了)</span><br><span class="line">pwd：显示目前的目录</span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<h3 id="切换目录命令cd（change-directory）"><a href="#切换目录命令cd（change-directory）" class="headerlink" title="切换目录命令cd（change directory）"></a>切换目录命令cd（change directory）</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd test         切换到test目录下</span><br><span class="line">cd .. 切换到上一级目录</span><br><span class="line">cd &#x2F; 切换到系统根目录下</span><br><span class="line">cd ~ 切换到当前用户的根目录下</span><br><span class="line">cd - 切换到上一级所在的目录</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="目录的创建（mkdir）和删除（rmdir）命令"><a href="#目录的创建（mkdir）和删除（rmdir）命令" class="headerlink" title="目录的创建（mkdir）和删除（rmdir）命令"></a>目录的创建（mkdir）和删除（rmdir）命令</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mkdir test 在当前目录下创建一个test目录</span><br><span class="line">mkdir -p test&#x2F;a&#x2F;b 在test目录下的a目录下创建一个b目录，如果上一级目录不存在，则连它的父目录一起创建</span><br><span class="line">rmdir test 删除当前目录下的test目录（注意：该命令只能够删除空目录）</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="文件的创建（touch）和删除（rm）命令"><a href="#文件的创建（touch）和删除（rm）命令" class="headerlink" title="文件的创建（touch）和删除（rm）命令"></a>文件的创建（touch）和删除（rm）命令</h3></blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">touch test.txt         在当前目录下创建一个test.txt的文件</span><br><span class="line">rm test.txt 删除test.txt的文件（带询问的删除，需输入y才能删除）</span><br><span class="line">rm -f test.txt 直接删除text.txt文件</span><br><span class="line">rm -r test 递归删除，即删除test目录以及其目录下的子目录（带询问的删除）</span><br><span class="line">rm -rf test 直接删除test目录以及其目录下的子目录</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h3 id="文件打包或解压命令tar"><a href="#文件打包或解压命令tar" class="headerlink" title="文件打包或解压命令tar"></a>文件打包或解压命令tar</h3></blockquote>
+<p>打包并压缩文件<br>Linux中的打包文件一般是以.tar结尾的，压缩的命令一般是以.gz结尾的。<br>而一般情况下打包和压缩是一起进行的，打包并压缩后的文件的后缀名一般.tar.gz。<br>命令：tar -zcvf 打包压缩后的文件名 要打包压缩的文件<br>其中：z：调用gzip压缩命令进行压缩<br>  c：打包文件<br>  v：显示运行过程<br>  f：指定文件名<br>示例：打包并压缩/test下的所有文件 压缩后的压缩包指定名称为xxx.tar.gz</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tar -zcvf xxx.tar.gz aaa.txt bbb.txt ccc.txt</span><br></pre></td></tr></table></figure>
+<p>或：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tar -zcvf xxx.tar.gz &#x2F;test&#x2F;*</span><br></pre></td></tr></table></figure>
+<p>解压压缩包（重点）<br>命令：tar [-xvf] 压缩文件<br>其中：x：代表解压<br>示例：将/test下的xxx.tar.gz解压到当前目录下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tar -xvf xxx.tar.gz</span><br></pre></td></tr></table></figure>
+<p>示例：将/test下的xxx.tar.gz解压到根目录/usr下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">tar -xvf xxx.tar.gz -C &#x2F;usr------C代表指定解压的位置</span><br></pre></td></tr></table></figure>
+
+<h2 id="持续更新…"><a href="#持续更新…" class="headerlink" title="持续更新…"></a>持续更新…</h2>
                 <hr>
                 
 
                 <ul class="pager">
                     
-                    <li class="previous">
-                        <a href="/2022/12/16/Linux常用命令/" data-toggle="tooltip" data-placement="top"
-                           title="Linux常用命令">&larr; Previous Post</a>
-                    </li>
-                    
                     
                     <li class="next">
-                        <a href="/2022/10/09/基于hexo-github搭建个人博客/" data-toggle="tooltip" data-placement="top"
-                           title="基于hexo+github搭建个人博客">Next Post &rarr;</a>
+                        <a href="/2022/10/10/hexo更换主题Anisina/" data-toggle="tooltip" data-placement="top"
+                           title="hexo更换主题Anisina">Next Post &rarr;</a>
                     </li>
                     
                 </ul>
@@ -258,7 +255,7 @@
 
             <div class="hidden-xs col-sm-3 toc-col">
                 <div class="toc-wrap">
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81"><span class="toc-text">下载源码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6"><span class="toc-text">修改配置文件</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E7%AD%BE%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-text">标签的使用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%9A%E6%96%87%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87"><span class="toc-text">博文背景图片</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%83%E7%89%9Bcdn%E5%9B%BE%E5%BA%8A"><span class="toc-text">七牛cdn图床</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%96%87%E4%BB%B6-%E7%9B%AE%E5%BD%95%E6%93%8D%E4%BD%9C"><span class="toc-text">常用文件&#x2F;目录操作</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B1%95%E7%A4%BA%E7%9B%AE%E5%BD%95%E5%88%97%E8%A1%A8%E5%91%BD%E4%BB%A4ls%EF%BC%88list%EF%BC%89"><span class="toc-text">展示目录列表命令ls（list）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%87%E6%8D%A2%E7%9B%AE%E5%BD%95%E5%91%BD%E4%BB%A4cd%EF%BC%88change-directory%EF%BC%89"><span class="toc-text">切换目录命令cd（change directory）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%9A%84%E5%88%9B%E5%BB%BA%EF%BC%88mkdir%EF%BC%89%E5%92%8C%E5%88%A0%E9%99%A4%EF%BC%88rmdir%EF%BC%89%E5%91%BD%E4%BB%A4"><span class="toc-text">目录的创建（mkdir）和删除（rmdir）命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%9B%E5%BB%BA%EF%BC%88touch%EF%BC%89%E5%92%8C%E5%88%A0%E9%99%A4%EF%BC%88rm%EF%BC%89%E5%91%BD%E4%BB%A4"><span class="toc-text">文件的创建（touch）和删除（rm）命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E6%89%93%E5%8C%85%E6%88%96%E8%A7%A3%E5%8E%8B%E5%91%BD%E4%BB%A4tar"><span class="toc-text">文件打包或解压命令tar</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E2%80%A6"><span class="toc-text">持续更新…</span></a></li></ol>
                 </div>
             </div>
         </div>
@@ -280,8 +277,8 @@
                     </h5>
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/hexo"
-                           title="hexo">hexo</a>
+                        <a class="tag" href="/tags/Linux"
+                           title="Linux">Linux</a>
                         
                     </div>
                 </section>
