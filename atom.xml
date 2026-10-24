@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>酒浅一生</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://www.winelife.top/</id>
+  <link href="https://www.winelife.top/" rel="alternate"/>
+  <link href="https://www.winelife.top/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 酒浅一生</rights>
+  <subtitle>WineLife</subtitle>
+  <title>酒浅一生</title>
+  <updated>2026-10-23T06:46:06.364Z</updated>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="操作手册" scheme="https://www.winelife.top/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="Hexo" scheme="https://www.winelife.top/tags/Hexo/"/>
+    <id>https://www.winelife.top/2026/08/15/hexo-upgrade/</id>
+    <link href="https://www.winelife.top/2026/08/15/hexo-upgrade/"/>
+    <published>2026-08-15T03:15:05.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>hexo版本升级记录</title>
+    <updated>2026-10-23T06:46:06.364Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="操作手册" scheme="https://www.winelife.top/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="Hexo" scheme="https://www.winelife.top/tags/Hexo/"/>
+    <id>https://www.winelife.top/2026/03/23/hexo-beautify/</id>
+    <link href="https://www.winelife.top/2026/03/23/hexo-beautify/"/>
+    <published>2026-03-23T06:35:37.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>Hexo添加天气时钟</title>
+    <updated>2026-10-23T09:43:03.324Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="算法" scheme="https://www.winelife.top/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="Java" scheme="https://www.winelife.top/tags/Java/"/>
+    <id>https://www.winelife.top/2025/05/29/Java-sorting-algorithms/</id>
+    <link href="https://www.winelife.top/2025/05/29/Java-sorting-algorithms/"/>
+    <published>2025-05-29T13:22:08.000Z</published>
+    <summary>Java十大排序算法及代码实现</summary>
+    <title>Java十大排序算法</title>
+    <updated>2026-10-21T03:22:19.924Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="测试技术" scheme="https://www.winelife.top/categories/%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF/"/>
+    <category term="Redis" scheme="https://www.winelife.top/tags/Redis/"/>
+    <id>https://www.winelife.top/2024/11/26/redis-operations/</id>
+    <link href="https://www.winelife.top/2024/11/26/redis-operations/"/>
+    <published>2024-11-26T11:37:17.000Z</published>
+    <summary>建立连接、集合、列表、字符串操作</summary>
+    <title>Redis常用操作</title>
+    <updated>2026-10-21T05:39:12.503Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="测试技术" scheme="https://www.winelife.top/categories/%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF/"/>
+    <category term="接口测试" scheme="https://www.winelife.top/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    <id>https://www.winelife.top/2024/02/23/Interface-testing/</id>
+    <link href="https://www.winelife.top/2024/02/23/Interface-testing/"/>
+    <published>2024-02-22T16:41:21.000Z</published>
+    <summary>常见的接口越权场景和相应测试方法</summary>
+    <title>接口越权测试方法</title>
+    <updated>2026-10-23T06:45:14.066Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="递归" scheme="https://www.winelife.top/categories/%E9%80%92%E5%BD%92/"/>
+    <category term="Java" scheme="https://www.winelife.top/tags/Java/"/>
+    <id>https://www.winelife.top/2023/02/15/squares/</id>
+    <link href="https://www.winelife.top/2023/02/15/squares/"/>
+    <published>2023-02-15T03:09:11.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>走方格的方案数</title>
+    <updated>2026-10-21T06:27:20.155Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="动态规划" scheme="https://www.winelife.top/categories/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="Java" scheme="https://www.winelife.top/tags/Java/"/>
+    <id>https://www.winelife.top/2023/01/29/longest-substring/</id>
+    <link href="https://www.winelife.top/2023/01/29/longest-substring/"/>
+    <published>2023-01-29T02:50:37.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>输出两个字符串最长公共子串的长度</title>
+    <updated>2026-10-21T03:34:48.920Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>酒浅一生</name>
+    </author>
+    <category term="操作手册" scheme="https://www.winelife.top/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="Hexo" scheme="https://www.winelife.top/tags/Hexo/"/>
+    <id>https://www.winelife.top/2022/05/01/begin-hexoblog/</id>
+    <link href="https://www.winelife.top/2022/05/01/begin-hexoblog/"/>
+    <published>2022-05-01T03:32:25.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>基于hexo+github搭建个人博客</title>
+    <updated>2026-10-23T03:30:40.099Z</updated>
+  </entry>
+</feed>

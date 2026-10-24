@@ -1,0 +1,43 @@
+/* 自定义容器样式 */
+.tips, .success, .warning, .danger {
+  padding: 12px 16px 12px 20px;
+  margin: 1.5em 0;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.02);
+  font-size: 0.95em;
+}
+.tips {
+  border-left-color: #3498db;
+  background-color: rgba(52, 152, 219, 0.08);
+}
+.tips:before {
+  content: "💡";
+  margin-right: 8px;
+  font-size: 1.1em;
+}
+.success {
+  border-left-color: #2ecc71;
+  background-color: rgba(46, 204, 113, 0.08);
+}
+.success:before {
+  content: "✅";
+  margin-right: 8px;
+}
+.warning {
+  border-left-color: #f39c12;
+  background-color: rgba(243, 156, 18, 0.08);
+}
+.warning:before {
+  content: "⚠️";
+  margin-right: 8px;
+}
+.danger {
+  border-left-color: #e74c3c;
+  background-color: rgba(231, 76, 60, 0.08);
+}
+.danger:before {
+  content: "🚫";
+  margin-right: 8px;
+}
