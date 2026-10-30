@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Chanson</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://www.chanson.cc/</id>
+  <link href="https://www.chanson.cc/" rel="alternate"/>
+  <link href="https://www.chanson.cc/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Chanson</rights>
+  <subtitle>人生是一场漫长的旅行</subtitle>
+  <title>Chanson</title>
+  <updated>2026-10-30T08:04:57.711Z</updated>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="博客加速" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E9%80%9F/"/>
+    <category term="Hexo" scheme="https://www.chanson.cc/tags/Hexo/"/>
+    <category term="CDN" scheme="https://www.chanson.cc/tags/CDN/"/>
+    <id>https://www.chanson.cc/2026/08/02/add-cdn/</id>
+    <link href="https://www.chanson.cc/2026/08/02/add-cdn/"/>
+    <published>2026-08-01T18:55:29.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>Hexo访问加速(CDN)</title>
+    <updated>2026-10-30T08:04:57.711Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="博客美化" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
+    <category term="Hexo" scheme="https://www.chanson.cc/tags/Hexo/"/>
+    <category term="ECharts" scheme="https://www.chanson.cc/tags/ECharts/"/>
+    <id>https://www.chanson.cc/2026/07/27/travel-footprints/</id>
+    <link href="https://www.chanson.cc/2026/07/27/travel-footprints/"/>
+    <published>2026-07-26T18:56:37.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>Hexo添加旅行足迹</title>
+    <updated>2026-10-30T07:26:24.722Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="Hexo" scheme="https://www.chanson.cc/tags/Hexo/"/>
+    <id>https://www.chanson.cc/2026/05/15/hexo-upgrade/</id>
+    <link href="https://www.chanson.cc/2026/05/15/hexo-upgrade/"/>
+    <published>2026-05-15T03:15:05.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>Hexo版本升级记录</title>
+    <updated>2026-10-29T06:06:57.658Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="博客美化" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
+    <category term="Hexo" scheme="https://www.chanson.cc/tags/Hexo/"/>
+    <id>https://www.chanson.cc/2026/03/23/hexo-beautify/</id>
+    <link href="https://www.chanson.cc/2026/03/23/hexo-beautify/"/>
+    <published>2026-03-23T06:35:37.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>Hexo添加天气时钟</title>
+    <updated>2026-10-29T06:05:25.529Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="算法" scheme="https://www.chanson.cc/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="Java" scheme="https://www.chanson.cc/tags/Java/"/>
+    <id>https://www.chanson.cc/2025/05/29/Java-sorting-algorithms/</id>
+    <link href="https://www.chanson.cc/2025/05/29/Java-sorting-algorithms/"/>
+    <published>2025-05-29T13:22:08.000Z</published>
+    <summary>Java十大排序算法及代码实现</summary>
+    <title>Java十大排序算法</title>
+    <updated>2026-10-29T06:07:44.977Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="测试技术" scheme="https://www.chanson.cc/categories/%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF/"/>
+    <category term="Redis" scheme="https://www.chanson.cc/tags/Redis/"/>
+    <id>https://www.chanson.cc/2024/11/26/redis-operations/</id>
+    <link href="https://www.chanson.cc/2024/11/26/redis-operations/"/>
+    <published>2024-11-26T11:37:17.000Z</published>
+    <summary>建立连接、集合、列表、字符串操作</summary>
+    <title>Redis常用操作</title>
+    <updated>2026-10-29T06:07:37.887Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="测试技术" scheme="https://www.chanson.cc/categories/%E6%B5%8B%E8%AF%95%E6%8A%80%E6%9C%AF/"/>
+    <category term="接口测试" scheme="https://www.chanson.cc/tags/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    <id>https://www.chanson.cc/2024/02/23/Interface-testing/</id>
+    <link href="https://www.chanson.cc/2024/02/23/Interface-testing/"/>
+    <published>2024-02-22T16:41:21.000Z</published>
+    <summary>常见的接口越权场景和相应测试方法</summary>
+    <title>接口越权测试方法</title>
+    <updated>2026-10-29T06:07:48.658Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="递归" scheme="https://www.chanson.cc/categories/%E9%80%92%E5%BD%92/"/>
+    <category term="Java" scheme="https://www.chanson.cc/tags/Java/"/>
+    <id>https://www.chanson.cc/2023/02/15/squares/</id>
+    <link href="https://www.chanson.cc/2023/02/15/squares/"/>
+    <published>2023-02-15T03:09:11.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>走方格的方案数</title>
+    <updated>2026-10-29T06:18:54.924Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="动态规划" scheme="https://www.chanson.cc/categories/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    <category term="Java" scheme="https://www.chanson.cc/tags/Java/"/>
+    <id>https://www.chanson.cc/2023/01/29/longest-substring/</id>
+    <link href="https://www.chanson.cc/2023/01/29/longest-substring/"/>
+    <published>2023-01-29T02:50:37.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>输出两个字符串最长公共子串的长度</title>
+    <updated>2026-10-29T06:07:41.944Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.chanson.cc/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="Hexo" scheme="https://www.chanson.cc/tags/Hexo/"/>
+    <id>https://www.chanson.cc/2022/05/01/begin-hexoblog/</id>
+    <link href="https://www.chanson.cc/2022/05/01/begin-hexoblog/"/>
+    <published>2022-05-01T03:32:25.000Z</published>
+    <summary>
+      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+    </summary>
+    <title>基于Hexo+Github搭建个人博客</title>
+    <updated>2026-10-29T06:04:41.431Z</updated>
+  </entry>
+</feed>
