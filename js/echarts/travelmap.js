@@ -31,7 +31,7 @@ var data = [
     {name: '澳门', url: '/xxxxxx/xxxxxx/'},
     {name: '厦门', url: '/xxxxxx/xxxxxx/'},
     {name: '泉州', url: '/xxxxxx/xxxxxx/'},
-    {name: '汕头', url: '/xxxxxx/xxxx xx/'},
+    {name: '汕头', url: '/xxxxxx/xxxxxx/'},
     {name: '大连', url: '/xxxxxx/xxxxxx/'},
     {name: '泉州', url: '/xxxxxx/xxxxxx/'},
     {name: '黄山', url: '/xxxxxx/xxxxxx/'}
