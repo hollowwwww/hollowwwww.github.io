@@ -23,7 +23,8 @@
     <link href="https://www.winelife.top/2026/08/02/add-cdn/"/>
     <published>2026-08-01T18:55:29.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<h2 id="前言">前言</h2>
+<p>笔者之前不是瞎搞了个旅行足迹地图吗，还乐此不疲的加上了图库链接跳转功能(详情可见之前文章:<a]]>
     </summary>
     <title>Hexo访问加速(CDN)</title>
     <updated>2026-10-30T09:47:54.336Z</updated>
@@ -40,7 +41,7 @@
     <link href="https://www.winelife.top/2026/07/27/travel-footprints/"/>
     <published>2026-07-26T18:56:37.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<p>本文内容是基于 <a href="https://echarts.org.cn/handbook/en/get-started/"><em><strong>ECharts</strong></em></a> <code>Version]]>
     </summary>
     <title>Hexo添加旅行足迹</title>
     <updated>2026-10-30T09:47:17.811Z</updated>
@@ -55,7 +56,13 @@
     <link href="https://www.winelife.top/2026/05/15/hexo-upgrade/"/>
     <published>2026-05-15T03:15:05.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<blockquote>
+<p>闲来无事给自己找点事做，把Hexo以及在用的butterfly主题都升级到最新了，特此记录</p>
+</blockquote>
+<blockquote>
+<p>以下指令均在hexo目录下操作</p>
+</blockquote>
+<h2]]>
     </summary>
     <title>Hexo版本升级记录</title>
     <updated>2026-10-29T06:06:57.658Z</updated>
@@ -71,7 +78,8 @@
     <link href="https://www.winelife.top/2026/03/23/hexo-beautify/"/>
     <published>2026-03-23T06:35:37.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<blockquote>
+<p>本次使用的插件来自<a]]>
     </summary>
     <title>Hexo添加天气时钟</title>
     <updated>2026-10-29T06:05:25.529Z</updated>
@@ -125,7 +133,8 @@
     <link href="https://www.winelife.top/2023/02/15/squares/"/>
     <published>2023-02-15T03:09:11.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<h2 id="题目描述">题目描述</h2>
+<p>请计算 <span class="katex"><span class="katex-mathml"><math]]>
     </summary>
     <title>走方格的方案数</title>
     <updated>2026-10-29T06:18:54.924Z</updated>
@@ -140,7 +149,9 @@
     <link href="https://www.winelife.top/2023/01/29/longest-substring/"/>
     <published>2023-01-29T02:50:37.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<h2 id="题目描述">题目描述</h2>
+<p>给定两个只包含小写字母的字符串，计算两个字符串的最大公共子串的长度。注：子串的定义指一个字符串删掉其部分前缀和后缀（也可以不删）后形成的字符串。</p>
+<h2]]>
     </summary>
     <title>输出两个字符串最长公共子串的长度</title>
     <updated>2026-10-29T06:07:41.944Z</updated>
@@ -155,7 +166,10 @@
     <link href="https://www.winelife.top/2022/05/01/begin-hexoblog/"/>
     <published>2022-05-01T03:32:25.000Z</published>
     <summary>
-      <![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js"]]>
+      <![CDATA[<h2 id="引言">引言</h2>
+<p>现在越来越多的人开始自建博客，搭建博客的工具也有许多。本篇文章就以hexo+github来搭建，希望能帮助到有需要的人。（注：本文中安装环境均为macOs）</p>
+<h2 id="Hexo安装">Hexo安装</h2>
+<h3]]>
     </summary>
     <title>基于Hexo+Github搭建个人博客</title>
     <updated>2026-10-29T06:04:41.431Z</updated>
