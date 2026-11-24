@@ -10,7 +10,26 @@
   <rights>All rights reserved 2026, Chanson</rights>
   <subtitle>人生是一场漫长的旅行</subtitle>
   <title>Chanson</title>
-  <updated>2026-10-30T09:47:54.336Z</updated>
+  <updated>2026-11-24T09:12:36.586Z</updated>
+  <entry>
+    <author>
+      <name>Chanson</name>
+    </author>
+    <category term="操作手册" scheme="https://www.winelife.top/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/"/>
+    <category term="博客美化" scheme="https://www.winelife.top/categories/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96/"/>
+    <category term="Hexo" scheme="https://www.winelife.top/tags/Hexo/"/>
+    <category term="TMDB" scheme="https://www.winelife.top/tags/TMDB/"/>
+    <id>https://www.winelife.top/2026/11/22/tmdb-movielist/</id>
+    <link href="https://www.winelife.top/2026/11/22/tmdb-movielist/"/>
+    <published>2026-11-22T03:09:11.000Z</published>
+    <summary>
+      <![CDATA[<p>为 <strong>Hexo</strong> 博客添加电影片单页，数据来源是 <strong><a href="https://www.themoviedb.org/">TMDB</a></strong></p>
+<blockquote>
+<p>修改自<a]]>
+    </summary>
+    <title>Hexo添加电影片单</title>
+    <updated>2026-11-24T09:12:36.586Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Chanson</name>
